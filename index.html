@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kauko Karhulahti – Portfolio</title>
+  <meta name="description" content="Portfolio – Tietoja minusta, työkokemus, koulutus, projektit, CV ja yhteystiedot." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link näppäimistökäyttäjille -->
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav">
+      <a class="brand" href="#top" aria-label="Etusivu">
+        <span class="logo" aria-hidden="true"></span>
+        <span class="title">Kauko Karhulahti</span>
+      </a>
+      <nav class="links" aria-label="Päänavigaatio">
+        <a class="nav-btn" href="#minusta">Tietoja minusta</a>
+        <a class="nav-btn" href="#kokemus">Työkokemus</a>
+        <a class="nav-btn" href="#koulutus">Koulutus</a>
+        <a class="nav-btn" href="#projektit">Projektit</a>
+        <a class="nav-btn nav-accent" href="#yhteys">Yhteystiedot</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO / INTRO -->
+    <section id="top" aria-labelledby="intro-title" class="hero">
+      <div class="container">
+        <h1 id="intro-title" class="hero-title">
+          Hei! Olen <span class="grad">Kauko</span>.
+        </h1>
+        <p class="lead">
+          Opiskelija ja ohjelmistokehityksestä innostunut tekijä Oulusta. Tykkään
+          rakentaa <strong>selkeää</strong>, <strong>ylläpidettävää</strong> ja <strong>nopeaa</strong> webiä.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#projektit">Katso projektit</a>
+          <a class="btn btn-ghost" href="#cv">Lataa CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="minusta" aria-labelledby="minusta-title" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="minusta-title">Tietoja minusta</h2>
+          <span class="badge">Esittely</span>
+        </div>
+        <p class="muted">
+          Pidän puhtaasta koodista ja opin nopeimmin tekemällä. Kiinnostukseni:
+          web‑sovellukset, API:t, automaatio ja käyttö­kokemus. Teen mielelläni pieniä
+          kokonaisuuksia alusta loppuun.
+        </p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Vahvuudet</h3>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">HTML &amp; CSS</span>
+              <span class="tag">Git</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Kiinnostuksen kohteet</h3>
+            <div class="tags">
+              <span class="tag">Web-kehitys</span>
+              <span class="tag">API-suunnittelu</span>
+              <span class="tag">UX</span>
+              <span class="tag">Automaatio</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="kokemus" aria-labelledby="kokemus-title" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="kokemus-title">Työkokemus</h2>
+          <span class="badge">Käytännön tekeminen</span>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <header class="card-top">
+              <h3>Harjoittelija, Frontend</h3>
+              <span class="chip">06/2025 – 08/2025</span>
+            </header>
+            <p class="meta">Yritys Oy • Helsinki</p>
+            <p>Työstin UI‑komponentteja, korjasin bugia ja osallistuin sprintteihin.</p>
+            <div class="tags">
+              <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-top">
+              <h3>Freelance-kehittäjä</h3>
+              <span class="chip">2024 –</span>
+            </header>
+            <p class="meta">Itsenäinen</p>
+            <p>Pienet sivustot ja automaatiot paikallisille toimijoille.</p>
+            <div class="tags">
+              <span class="tag">HTML/CSS</span><span class="tag">Vanilla JS</span><span class="tag">Deploy</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="koulutus" aria-labelledby="koulutus-title" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="koulutus-title">Koulutus</h2>
+          <span class="badge">Opinnot</span>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <header class="card-top">
+              <h3>Ohjelmistokehityksen opinnot</h3>
+              <span class="chip">2024 –</span>
+            </header>
+            <p>Kurssit: Ohjelmoinnin perusteet, Web‑kehitys, Tietorakenteet & algoritmit.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">Web</span><span class="tag">Versiohallinta</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projektit" aria-labelledby="projektit-title" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="projektit-title">Projektit</h2>
+          <span class="badge">Valikoidut</span>
+        </div>
+
+        <div class="grid">
+          <article class="card card-hover">
+            <h3>Tehtävälista‑sovellus</h3>
+            <p>Kevyt to‑do, joka tallentaa tehtävät selaimen LocalStorageen.</p>
+            <div class="tags">
+              <span class="tag">JavaScript</span><span class="tag">LocalStorage</span><span class="tag">A11y</span>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <h3>Portfoliosivusto</h3>
+            <p>Tämä sivu – responsiivinen, saavutettava ja nopea ilman JS:ää.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Performance</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="cta mt">
+          <a class="btn" href="#top">Takaisin ylös</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV & CONTACT -->
+    <section id="cv" aria-labelledby="cv-title" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="cv-title">Ansioluettelo &amp; yhteystiedot</h2>
+          <span class="badge">Lataa &amp; ota yhteyttä</span>
+        </div>
+
+        <div class="cta">
+          <!-- Laita PDF samaan kansioon tai muuta polkua -->
+          <a class="btn" href="Kauko_Karhulahti_CV.pdf" download>📄 Lataa ansioluettelo (PDF)</a>
+          <a class="btn btn-ghost" href="#yhteys">Yhteystiedot</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="yhteys" class="site-footer" aria-labelledby="yhteys-title">
+    <div class="container">
+      <h2 id="yhteys-title">Yhteystiedot</h2>
+      <ul class="contact-list">
+        <li class="contact-item">
+          📧 <a href="mailto:karhulahtikauko@gmail.com">karhulahtikauko@gmail.com</a>
+        </li>
+        <li class="contact-item">
+          📱 <a href="tel:+358456680088">+358 45 668 0088</a>
+        </li>
+        <li class="contact-item">
+          🌐 <span class="muted">Lisää GitHub/LinkedIn‑linkit tähän</span>
+        </li>
+      </ul>
+      <p class="small muted mt">© <span id="year" aria-hidden="true">2026</span> Kauko Karhulahti</p>
+    </div>
+  </footer>
+</body>
+</html>
+``
