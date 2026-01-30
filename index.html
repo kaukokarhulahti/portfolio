@@ -5,42 +5,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kauko Karhulahti – Portfolio</title>
-  <meta name="description" content="Portfolio – Tietoja minusta, työkokemus, koulutus, projektit, CV ja yhteystiedot." />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="Kauko Karhulahden portfolio: esittely, työkokemus, koulutus, projektit, CV ja yhteystiedot." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Skip link näppäimistökäyttäjille -->
+  <!-- Skip link näppäimistölle -->
   <a class="skip-link" href="#main">Siirry sisältöön</a>
 
   <!-- HEADER -->
   <header class="site-header">
     <div class="nav">
-      <a class="brand" href="#top" aria-label="Etusivu">
+      <a class="brand" href="#top" aria-label="Takaisin alkuun">
         <span class="logo" aria-hidden="true"></span>
         <span class="title">Kauko Karhulahti</span>
       </a>
+
       <nav class="links" aria-label="Päänavigaatio">
         <a class="nav-btn" href="#minusta">Tietoja minusta</a>
         <a class="nav-btn" href="#kokemus">Työkokemus</a>
         <a class="nav-btn" href="#koulutus">Koulutus</a>
         <a class="nav-btn" href="#projektit">Projektit</a>
-        <a class="nav-btn nav-accent" href="#yhteys">Yhteystiedot</a>
+        <a class="nav-btn" href="#yhteys">Yhteystiedot</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
     <!-- HERO / INTRO -->
-    <section id="top" aria-labelledby="intro-title" class="hero">
+    <section id="top" class="hero" aria-labelledby="intro-title">
       <div class="container">
         <h1 id="intro-title" class="hero-title">
           Hei! Olen <span class="grad">Kauko</span>.
         </h1>
-        <p class="lead">
-          Opiskelija ja ohjelmistokehityksestä innostunut tekijä Oulusta. Tykkään
-          rakentaa <strong>selkeää</strong>, <strong>ylläpidettävää</strong> ja <strong>nopeaa</strong> webiä.
-        </p>
+        
+<p class="lead">
+  16‑vuotias ohjelmistokehittäjäksi opiskeleva nuori Oulusta.
+</p>
+
         <div class="cta">
           <a class="btn" href="#projektit">Katso projektit</a>
           <a class="btn btn-ghost" href="#cv">Lataa CV</a>
@@ -49,80 +50,82 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="minusta" aria-labelledby="minusta-title" class="section">
+    <section id="minusta" class="section" aria-labelledby="minusta-title">
       <div class="container">
         <div class="section-head">
           <h2 id="minusta-title">Tietoja minusta</h2>
           <span class="badge">Esittely</span>
         </div>
-        <p class="muted">
-          Pidän puhtaasta koodista ja opin nopeimmin tekemällä. Kiinnostukseni:
-          web‑sovellukset, API:t, automaatio ja käyttö­kokemus. Teen mielelläni pieniä
-          kokonaisuuksia alusta loppuun.
-        </p>
 
         <div class="grid">
           <article class="card">
-            <h3>Vahvuudet</h3>
-            <div class="tags">
-              <span class="tag">JavaScript</span>
-              <span class="tag">Python</span>
-              <span class="tag">HTML &amp; CSS</span>
-              <span class="tag">Git</span>
-            </div>
+            <h3>Kuka olen</h3>
+            <p>
+              Olen <strong>Kauko Karhulahti</strong>, 16‑vuotias opiskelija Oulusta.
+              Opiskelen ohjelmistokehitystä ja opin parhaiten tekemällä.
+            </p>
           </article>
 
           <article class="card">
-            <h3>Kiinnostuksen kohteet</h3>
-            <div class="tags">
-              <span class="tag">Web-kehitys</span>
-              <span class="tag">API-suunnittelu</span>
-              <span class="tag">UX</span>
-              <span class="tag">Automaatio</span>
-            </div>
+            <h3>Missä opiskelen</h3>
+            <p>
+              <strong>OSAO, Kaukovainio</strong> — <em>ohjelmistokehittäjäkoulutus</em>.<br />
+              Aloitus <strong>2025</strong>, arvioitu valmistuminen <strong>2028</strong>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Harrastukset</h3>
+            <p>
+              Harrastan videopelien pelaamista ja olen kiinnostunut teknologiasta sekä
+              siitä, miten järjestelmät ja ohjelmat toimivat taustalla.
+            </p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="kokemus" aria-labelledby="kokemus-title" class="section">
+    <section id="kokemus" class="section" aria-labelledby="kokemus-title">
       <div class="container">
         <div class="section-head">
           <h2 id="kokemus-title">Työkokemus</h2>
-          <span class="badge">Käytännön tekeminen</span>
+          <span class="badge">TET-harjoittelut</span>
         </div>
 
         <div class="grid">
-          <article class="card">
+          <article class="card card-hover">
             <header class="card-top">
-              <h3>Harjoittelija, Frontend</h3>
-              <span class="chip">06/2025 – 08/2025</span>
+              <h3>Posti</h3>
+              <span class="chip">2023</span>
             </header>
-            <p class="meta">Yritys Oy • Helsinki</p>
-            <p>Työstin UI‑komponentteja, korjasin bugia ja osallistuin sprintteihin.</p>
-            <div class="tags">
-              <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span>
-            </div>
+            <p class="meta">TET-harjoittelu</p>
+            <p>Tehtävät: postin lajittelu.</p>
           </article>
 
-          <article class="card">
+          <article class="card card-hover">
             <header class="card-top">
-              <h3>Freelance-kehittäjä</h3>
-              <span class="chip">2024 –</span>
+              <h3>K‑Market</h3>
+              <span class="chip">2024</span>
             </header>
-            <p class="meta">Itsenäinen</p>
-            <p>Pienet sivustot ja automaatiot paikallisille toimijoille.</p>
-            <div class="tags">
-              <span class="tag">HTML/CSS</span><span class="tag">Vanilla JS</span><span class="tag">Deploy</span>
-            </div>
+            <p class="meta">TET-harjoittelu</p>
+            <p>Tehtävät: hyllytys ja tuotteiden tarkistus.</p>
+          </article>
+
+          <article class="card card-hover">
+            <header class="card-top">
+              <h3>Kirjasto</h3>
+              <span class="chip">2025</span>
+            </header>
+            <p class="meta">TET-harjoittelu</p>
+            <p>Tehtävät: kirjojen hyllytys ja levyjen puhdistus.</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- EDUCATION -->
-    <section id="koulutus" aria-labelledby="koulutus-title" class="section">
+    <section id="koulutus" class="section" aria-labelledby="koulutus-title">
       <div class="container">
         <div class="section-head">
           <h2 id="koulutus-title">Koulutus</h2>
@@ -132,20 +135,25 @@
         <div class="grid">
           <article class="card">
             <header class="card-top">
-              <h3>Ohjelmistokehityksen opinnot</h3>
-              <span class="chip">2024 –</span>
+              <h3>OSAO, Kaukovainio — Ohjelmistokehittäjäkoulutus</h3>
+              <span class="chip">2025–2028 (arvio)</span>
             </header>
-            <p>Kurssit: Ohjelmoinnin perusteet, Web‑kehitys, Tietorakenteet & algoritmit.</p>
-            <div class="tags">
-              <span class="tag">Python</span><span class="tag">Web</span><span class="tag">Versiohallinta</span>
-            </div>
+            <p>Ohjelmointi, web-kehitys, versiohallinta ja projektityö.</p>
+          </article>
+
+          <article class="card">
+            <header class="card-top">
+              <h3>Peruskoulu</h3>
+              <span class="chip">Valmistunut 2025</span>
+            </header>
+            <p>Perusopetuksen päättötodistus.</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projektit" aria-labelledby="projektit-title" class="section">
+    <section id="projektit" class="section" aria-labelledby="projektit-title">
       <div class="container">
         <div class="section-head">
           <h2 id="projektit-title">Projektit</h2>
@@ -154,39 +162,51 @@
 
         <div class="grid">
           <article class="card card-hover">
-            <h3>Tehtävälista‑sovellus</h3>
-            <p>Kevyt to‑do, joka tallentaa tehtävät selaimen LocalStorageen.</p>
+            <h3>ParkPolish – Autonpuhdistusrobotti (konsepti)</h3>
+            <p>
+              Konsepti robotista, joka puhdistaa auton omistajan poissa ollessa.
+              Robotti tunnistaa auton mallin, navigoi esteiden ohi ja sisältää
+              turvallisuusominaisuuksia.
+            </p>
             <div class="tags">
-              <span class="tag">JavaScript</span><span class="tag">LocalStorage</span><span class="tag">A11y</span>
+              <span class="tag">Konseptisuunnittelu</span>
+              <span class="tag">Autonomia</span>
+              <span class="tag">Turvallisuus</span>
             </div>
           </article>
 
           <article class="card card-hover">
             <h3>Portfoliosivusto</h3>
-            <p>Tämä sivu – responsiivinen, saavutettava ja nopea ilman JS:ää.</p>
+            <p>Tämä sivu — responsiivinen, saavutettava ja nopea ilman JS:ää.</p>
             <div class="tags">
-              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Performance</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Performance</span>
             </div>
           </article>
         </div>
 
         <div class="cta mt">
-          <a class="btn" href="#top">Takaisin ylös</a>
+          <a class="btn btn-ghost" href="#top">Takaisin ylös</a>
         </div>
       </div>
     </section>
 
-    <!-- CV & CONTACT -->
-    <section id="cv" aria-labelledby="cv-title" class="section">
+    <!-- CV (LADATTAVA) -->
+    <section id="cv" class="section" aria-labelledby="cv-title">
       <div class="container">
         <div class="section-head">
-          <h2 id="cv-title">Ansioluettelo &amp; yhteystiedot</h2>
-          <span class="badge">Lataa &amp; ota yhteyttä</span>
+          <h2 id="cv-title">Ansioluettelo</h2>
+          <span class="badge">Lataa PDF</span>
         </div>
 
+        <p class="muted">Voit ladata ansioluetteloni alla olevasta painikkeesta.</p>
+
         <div class="cta">
-          <!-- Laita PDF samaan kansioon tai muuta polkua -->
-          <a class="btn" href="Kauko_Karhulahti_CV.pdf" download>📄 Lataa ansioluettelo (PDF)</a>
+          <!-- HUOM: välilyönti on koodattu %20 jotta linkki toimii -->
+          <a class="btn" href="Ansioluettelo%20(1).pdf" download="Kauko_Karhulahti_CV.pdf">
+            📄 Lataa ansioluettelo (PDF)
+          </a>
           <a class="btn btn-ghost" href="#yhteys">Yhteystiedot</a>
         </div>
       </div>
@@ -202,13 +222,13 @@
           📧 <a href="mailto:karhulahtikauko@gmail.com">karhulahtikauko@gmail.com</a>
         </li>
         <li class="contact-item">
-          📱 <a href="tel:+358456680088">+358 45 668 0088</a>
+          📱 <a href="tel:+358456680088">+358 45 6680088</a>
         </li>
         <li class="contact-item">
-          🌐 <span class="muted">Lisää GitHub/LinkedIn‑linkit tähän</span>
+          🌐 <span class="muted">Lisää GitHub/LinkedIn‑linkit halutessasi</span>
         </li>
       </ul>
-      <p class="small muted mt">© <span id="year" aria-hidden="true">2026</span> Kauko Karhulahti</p>
+      <p class="small muted mt">© 2026 Kauko Karhulahti</p>
     </div>
   </footer>
 </body>
